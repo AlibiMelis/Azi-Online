@@ -7,3 +7,23 @@
 //
 
 import Foundation
+
+class Pot {
+    //MARK: - Properties
+    private var pot = 0
+
+    //MARK: - Functions
+    func addMoney(amount: Int) {
+        pot += amount
+    }
+    
+    func getMoney() -> Int {
+        return pot
+    }
+    
+    func reset() {
+        pot = 0
+    }
+
+    
+}

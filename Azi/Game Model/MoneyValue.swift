@@ -7,3 +7,10 @@
 //
 
 import Foundation
+
+enum MoneyValue: Int {
+    case tenK = 10000
+    case twentyFiveK = 25000
+    case fiftyK = 50000
+}
+
