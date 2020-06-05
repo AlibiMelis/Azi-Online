@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aC7-x5-U5M">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aC7-x5-U5M">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -87,7 +87,7 @@
                         <outlet property="passwordConfirmTextField" destination="Ua6-e9-G4T" id="kEI-00-IUF"/>
                         <outlet property="passwordTextField" destination="Pbj-8P-tCV" id="SkY-cG-TEh"/>
                         <outlet property="profileImageView" destination="bWn-Jo-iGX" id="9PP-it-4Eo"/>
-                        <segue destination="7vn-7a-PcN" kind="presentation" identifier="toMainFromReg" modalPresentationStyle="fullScreen" id="2Eo-O5-f7L"/>
+                        <segue destination="7vn-7a-PcN" kind="presentation" identifier="toMainAfterReg" modalPresentationStyle="fullScreen" id="2Eo-O5-f7L"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="lfG-Ve-yUR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -697,6 +697,7 @@
         <scene sceneID="O8f-k3-xGE">
             <objects>
                 <tabBarController id="VPI-B9-aWF" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="vZ0-ru-dvv"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Uip-Hf-Kfo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
